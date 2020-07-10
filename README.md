@@ -19,4 +19,4 @@ To add a resource follow these steps:
 
 Make sure you replace XXX by the branch's name.
 
-7. Push your changes and create a PR to master
+5. Push your changes and create a PR to master
