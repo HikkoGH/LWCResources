@@ -8,7 +8,9 @@ To add a resource follow these steps:
 2. Add a new folder with the resource name XXX.
 3. Add the resources in there (the classes folder, LWC folder, etc)
 4. Create a README.md (the readme.md should be at the same level as your classes, LWC folders).
+
 4.1 Jot down useful information regarding the added resource. Consider useful screenshots or videos.
+
 4.2 At the bottom of the readme, add the following HTML tag:
 
 ```
