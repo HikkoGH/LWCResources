@@ -1,7 +1,7 @@
 Use this component to display a custom datatable with type picklist and/or checkbox.
 
 
-![set-action](https://raw.githubusercontent.com/Nimacloud/LWCResources/custom-ligthning-datatable/exampleDatatable.png)
+![Custom datatable image](https://github.com/Nimacloud/LWCResources/blob/custom-lightning-datatable/custom-lightning-datatable/exampleDatatable.png)
 
 
 <a href="https://githubsfdeploy.herokuapp.com?owner=Nimacloud&repo=LWCResources&ref=custom-lightning-datatable" rel="nofollow">
