@@ -8,7 +8,7 @@ Add the Action to any lightning Flow:
 Set the recordId parameter:
 ![set-action](https://raw.githubusercontent.com/Nimacloud/open-record/master/set-action.png?token=ABTH4P5APORSSW3ABBM2KEC6B3BBW)
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=Nimacloud&repo=LWCResources&ref=open-record">
+<a href="https://githubsfdeploy.herokuapp.com?owner=Nimacloud&repo=LWCResources&ref=custom-lightning-datatable">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
