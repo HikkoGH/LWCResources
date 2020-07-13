@@ -1,0 +1,30 @@
+.picklist-container,
+.lookup-container {
+  width: 90%;
+  margin: auto;
+}
+
+.picklist-container .slds-dropdown,
+.lookup-container .slds-dropdown {
+  position: absolute !important;
+  z-index: 1000 !important;
+  display: inline-block !important;
+}
+
+[lightning-combobox_combobox-host] {
+  margin-bottom: 5px;
+}
+
+.slds-table_edit thead th:first-child {
+  width: 60px;
+}
+
+th {
+  min-width: 300px;
+}
+
+.slds-button_icon-bare,
+.slds-th__action-button,
+lightning-primitive-header-actions {
+  display: none;
+}
