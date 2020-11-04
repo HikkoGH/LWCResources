@@ -14,6 +14,13 @@ export default class CustomDatatableDemo extends LightningElement {
         this.tableData = [...tableData];
     }
 
+    renderedCallback() {
+        if (this.forceRerender) {
+            this.forceRerender = false;
+            this.tableData = JSON.parse(JSON.stringify(this.lastSavedData));
+        }
+    }
+
     connectedCallback() {
         this.columns = [
             { label: 'Name', fieldName: 'Name', editable: true },
@@ -150,7 +157,9 @@ export default class CustomDatatableDemo extends LightningElement {
     handleCancel(event) {
         //remove draftValues & revert data changes
         console.log(JSON.parse(JSON.stringify(this.lastSavedData)));
-        this.tableData = JSON.parse(JSON.stringify(this.lastSavedData));
+        const cleanData = JSON.parse(JSON.stringify(this.lastSavedData));
+        this.tableData = [];
+        this.forceRerender = true;
         this.draftValues = [];
     }
 }

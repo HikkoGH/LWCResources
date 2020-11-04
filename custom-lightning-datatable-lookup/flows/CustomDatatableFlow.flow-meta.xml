@@ -49,7 +49,7 @@
             <inputParameters>
                 <name>tableData</name>
                 <value>
-                    <elementReference>accounts</elementReference>
+                    <elementReference>get_accounts</elementReference>
                 </value>
             </inputParameters>
             <isRequired>true</isRequired>
