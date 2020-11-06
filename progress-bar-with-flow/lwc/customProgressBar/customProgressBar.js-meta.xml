@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="firstLabel" label="firstLabel" type="String"/>
+            <property name="secondLabel" label="secondLabel" type="String"/>
+            <property name="thirdLabel" label="thirdLabel" type="String"/>
+            <property name="fourthLabel" label="fourthLabel" type="String"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

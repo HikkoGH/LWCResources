@@ -1,0 +1,18 @@
+.slds-progress__item.slds-is-completed .slds-progress__marker_icon, .slds-progress__item.slds-is-completed .slds-progress__marker--icon {
+    border-color: white;
+    color: rgb(75, 136, 35) !important;
+}
+
+.slds-progress-bar__value {
+    color: rgb(75, 136, 35) !important;
+    background-color: rgb(75, 136, 35) !important;
+}
+
+.slds-progress__item.slds-is-active > .slds-button.slds-progress__marker  {
+    border-color: rgb(75, 136, 35);
+}
+
+.slds-progress {
+    max-width: 70%;
+    margin-left: 0;
+}

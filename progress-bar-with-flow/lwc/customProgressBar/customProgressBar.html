@@ -1,0 +1,35 @@
+<template>
+    <div class="slds-grid slds-wrap" style="word-wrap: break-word">
+        <div class="slds-col slds-size_12-of-12">
+            <lightning-progress-indicator class="auditmate-color" current-step={activeStep} type="base" variant="base">
+                <lightning-progress-step label={firstStep} value="1"></lightning-progress-step>
+                <lightning-progress-step label={secondStep} value="2"></lightning-progress-step>
+                <lightning-progress-step label={thirdStep} value="3"></lightning-progress-step>
+                <lightning-progress-step label={fourthStep} value="4"></lightning-progress-step>
+            </lightning-progress-indicator>
+        
+        </div>
+        <div class="slds-grid  slds-container_center slds-size_12-of-12" style="float: right">
+            <div class="width-23 margin-left-1">
+                <div class="width-70" data-id="1">
+                    {firstLabel}
+                </div>
+            </div>
+            <div class="width-23">
+                <div class="width-70" data-id="2">
+                    {secondLabel}
+                </div>
+            </div>
+            <div class="width-23">
+                <div class="width-70" data-id="3">
+                    {thirdLabel}
+                </div>
+            </div>
+            <div class="width-23">
+                <div class="width-70" data-id="4">
+                    {fourthLabel}
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
