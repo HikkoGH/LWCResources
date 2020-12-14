@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="objectName" type="String" label="Object API Name" />
+            <property name="country" type="String" label="Country API name" />
+            <property name="city" type="String" label="City API name" />
+            <property name="state" type="String" label="State API name" />
+            <property name="street" type="String" label="Street API name" />
+            <property name="postalCode" type="String" label="Postal Code API name" />
+            <property name="description" type="String" label="Description API name (can be null)" />
+            <property name="title" type="String" label="Name API name (can be null)" default="Name" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
