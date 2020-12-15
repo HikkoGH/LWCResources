@@ -1,0 +1,9 @@
+.slds-button {
+    float: right;
+    margin-left: -60px;
+    z-index: 2000;
+    height: 40px;
+    width: 40px;
+    right: 10px;
+    top: 10px;
+}

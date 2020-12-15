@@ -1,0 +1,12 @@
+<template>
+    <template if:false={refreshComponent}>
+        <button class="slds-button slds-button_icon slds-button_icon-border slds-button--large" title="Refresh" alternative-text="Refresh" onclick={onRefreshClick}>
+            <svg class="slds-button__icon" aria-hidden="true">
+                <use xlink:href="/_slds/icons/utility-sprite/svg/symbols.svg?cache=9.28.0#refresh"></use>
+            </svg>
+        </button>
+        <lightning-map
+            map-markers={mapMarkers}>
+        </lightning-map>
+    </template>
+</template>
