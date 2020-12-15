@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is a sample Lightning Message Channel.</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>This is the active step to be set</description>
+        <fieldName>activeStep</fieldName>
+    </lightningMessageFields>
+    <masterLabel>CustomProgressBar</masterLabel>
+</LightningMessageChannel>
