@@ -1,0 +1,25 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,force:hasRecordId,force:hasSObjectName">
+    
+    <aura:dependency resource="markup://force:editRecord" type="EVENT" />
+    
+    <aura:attribute name="showFlow" type="Boolean" default="true"/>
+    <aura:attribute name="recordId" type="string" />
+    <aura:attribute name="flowName" type="string" />
+    
+    <aura:handler event="force:refreshView" action="{!c.init}" />
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <aura:handler name="change" value="{!v.showFlow}" action="{!c.handleShowFlowChange}"/>
+    
+    <lightning:card footer="" title="">
+
+        <aura:if isTrue="{!v.showFlow}">
+            <lightning:flow aura:id="flowData" /> 
+            <!-- force re-render to restart the flow -->
+            <aura:set attribute="else">
+                <lightning:flow aura:id="flowData2" />
+            </aura:set>
+        </aura:if>
+        
+    </lightning:card>
+    
+</aura:component>

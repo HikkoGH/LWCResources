@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+ 
+    <types>
+        <members>Demo_Account_Details</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Account_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>FlowContainerComponent</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <version>51.0</version>
+</Package>
